@@ -142,4 +142,4 @@ push-notification-poc/
 
 - 🔒 HTTPS is required in production (localhost works for testing)
 - 🌐 Browser support: Chrome, Firefox, Edge, Opera (not Safari on iOS)
-- 📱 Notifications work even when browser is closed (if service worker is active
+- 📱 Notifications work even when browser is closed (if service worker is active)

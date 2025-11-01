@@ -1,0 +1,145 @@
+.App {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.App-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    color: white;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.status {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    padding: 10px 20px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 10px;
+}
+
+.subscribed {
+    color: #4ade80;
+    font-weight: bold;
+}
+
+.not-subscribed {
+    color: #f87171;
+    font-weight: bold;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.btn {
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+.btn-primary {
+    background: #10b981;
+    color: white;
+}
+
+.btn-primary:hover:not(:disabled) {
+    background: #059669;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.4);
+}
+
+.btn-secondary {
+    background: #3b82f6;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background: #2563eb;
+}
+
+.btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.notification-form {
+    background: rgba(255,255,255,0.1);
+    padding: 30px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.notification-form h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.input, .textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid rgba(255,255,255,0.2);
+    border-radius: 8px;
+    background: rgba(255,255,255,0.9);
+    font-size: 1rem;
+    font-family: inherit;
+}
+
+.textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.message {
+    margin-top: 20px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-weight: 500;
+    max-width: 500px;
+    text-align: center;
+}
+
+.message.success {
+    background: rgba(16, 185, 129, 0.2);
+    border: 2px solid #10b981;
+}
+
+.message.error {
+    background: rgba(248, 113, 113, 0.2);
+    border: 2px solid #f87171;
+}
+
+.info {
+    margin-top: 40px;
+    padding: 20px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 10px;
+    text-align: left;
+}
+
+.info h3 {
+    margin-bottom: 10px;
+}
+
+.info p {
+    margin: 5px 0;
+}
